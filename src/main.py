@@ -2,7 +2,7 @@ import csv
 from scraping.idealista_scrapper import idealista_scraper
 
 def main():
-    # Scraping de datos desde Idealista
+    # Scraping de datos desde Idealista.
     all_data = idealista_scraper()
     
     # Ruta donde se guardará el archivo CSV
